@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop NewPet</title>      
+    <!-- GOOGLE ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- MATERIALIZE CSS -->		
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="custom.css">   
+    <title>tcc</title>
+</head>
+<body>
+
+
+    <!-- HEADER-->
+    <header>
+        <div class="navbar-fixed">
+        <nav class="navbar z-depth-0">
+            <div class="nav-wrapper container">
+                <h1 class="logo_text">Petshop - Espaço para o seu amigo</h1>
+                <a href=""><img class="logo_img" src="img/logo.png" alt="Petshop"></a>
+                <ul class="right light hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre NewPet</a></li>
+                    <li><a href="servico.php">Serviços</a></li>
+                    <li><a href="#cuidados">Cuidados</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <!--HOME-->
+    <section class="home bloco scrollspy" id="home">
+        <div class="row container banner">
+        <div class="cpç s12 center">   
+            <h2> New Pet Melhor Petshop da região</h2>
+                <p>Nosso petshop é focado em trazer uma boa vivencia ao seu pet, cuidamos muito bem deles
+                e prezamos muito pela saude e segurança dele.
+            </p>
+            <div class="row botoes">
+                <a class="btn btn-large red-logo" href="login.php">Login</a>
+                <a class="btn btn-large white black-text" href="cadastro.php">Cadastro</a>
+            </div>
+            <div class="row botoes">
+                <a class="btn btn-flat red-logo white-text" href="../tcc/CATALOGO.pdf" download>CATALOGO</a>
+            </div>
+        </div>
+    </section>
+
+    <!--SOBRE-->
+    <section class="sobre bloco scrollspy" id="sobre">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light">Sobre nós</h2>
+            </div>
+
+            <div class="col s12 l6">
+                <p class="light texto-sobre">
+                    O nosso petshop chegou a cidade e região trazendo
+                    um incrivel trabalho com os pets que não decepciona
+                    localizada no centro da cidade, conta com otimo atendimento
+                    e profissionais extramamente dedicados. Hoje em dia temos 
+                    serviços de otima qualidade que são eles: Banho, Tosa e Cosulta
+                    com o nosso veterinario. Tambem temos um grande catalogo de produtos
+                    destinados aos pets.
+                </p>
+            </div>
+
+            <div class="col s12 l6">
+                <div class="carousel carousel-slider" data-indicators="true">
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/teste123.jpg">
+                    </a>
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/foto1.png">
+                    </a>
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/foto123.jpg">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row red-logo missao-visao-valores">
+            <div class="container">
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">assignment</i></span>
+                    <h1 class="light">Missão</h1>
+                    <p class=""><b> Nossa missão é mostrar aos nossos clientes a importância de
+                         cuidar de seus pet, proporcionando uma vida bem mais segura
+                          e saudável aos pets.</b></p>
+                </article>
+
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">visibility</i></span>
+                    <h1 class="light">Visão</h1>
+                    <p class=""><b>Temos como visão sempre manter um boa saude e bem estar de seu Pet
+                    </b></p>
+                </article>
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">grade</i></span>
+                    <h1 class="light">Valores</h1>
+                    <p class=""><b>Os animais podem ser considerados como uma fonte de amor
+                         e nessa relação homem-animal ocorre também uma busca por carinho. </b></p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="cuidados bloco scrollspy" id="cuidados">
+    	<div class="row container">
+    		<div class="col s12 center">
+    			<h2 class="light titulo white-text"> Cuidados </h2>
+    			<p class="light paragrafo white-text"> Aqui estarão sendo mostrados alguns dos cuidados que devemos tomar com nossos compranheiros durante nossa rotina diaria.<br>
+                Tais eles como alimentacao, atividades, brincadeiras, vacinação. Isso é somente o basico que devemos fazer.</p>
+    		</div>
+    	</div>
+
+        <div class="row container">
+            <!--Alilmentação-->
+            <article class="col s1 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="..//tcc/img/alimentacao.png" alt="Alimentacao" class="materialboxed">
+                        <a href="#alimentacao-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>  
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Alimentação </h3>
+                        <p class="light">A alimentação é um importante pilar para a saúde e bem-estar de cães e gatos...</p>
+                    </div>
+                </div>
+            </article>
+            <!--Modal Alimentação-->
+            <div class="modal" id="alimentacao-modal">
+                <div class="modal-content">
+                    <h5 class="light">Importância da alimentação</h5>
+                    <p class="light black-text"><br><br>A alimentação é um importante pilar para a saúde e bem-estar de cães e gatos. Por isso,
+                        é fundamental que os tutores tenham conhecimento sobre a dieta ideal para o seu pet. Uma má alimentação pode acarretar
+                        sérios problemas de saúde, como obesidade e diabetes.<br><br></p>
+                    <h5 class="light">1- Quantas vezes o doguinho deve comer por dia?</h5>
+                    <ul class="collection">
+                        <li class="collection-item">Filhotes de até 8 semanas de idade devem se alimentar de leite materno;</li>
+                        <li class="collection-item">Cãezinhos de 2 a 4 meses de idade já podem receber alimentos sólidos, e devem comer, pelo menos, 4 vezes ao dia;</li>
+                        <li class="collection-item">Doguinhos de 4 a 8 meses, devem comer 3 vezes ao dia</li>
+                        <li class="collection-item">A partir dos 8 meses, os catioros devem comer 2 vezes ao dia.</li>
+                    </ul>
+                    <br>
+                    <h5 class="light">2- A comida pode ficar disponível o dia inteiro?</h5><br>
+                    <p>Não, essa é uma prática errada feita por alguns papais! Deixar comida em excesso no pote ao longo do dia pode prejudicar a saúde dos cãezinhos, causando sobrepeso e obesidade. Como um cãozinho adulto e saudável deve fazer 2 refeições diárias, é importante que elas sejam servidas somente no horário preestabelecido na rotina de alimentação dos cães.</p><br>
+                    <h5 class="light">3- Qual a quantidade ideal de ração?</h5> <br>
+                    <p>Em geral, os cães adultos comem de 2% a 3% do seu peso corporal. A quantidade diária de comida depende de três fatores: porte, idade e qualidade da alimentação. Portanto, não é possível indicar com certeza a porção adequada para cada catioro, pois cada animal é único. O ideal é sempre verificar a quantidade indicada na embalagem e seguir as instruções.</p> <br>   
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn red-logo modal-action modal-close">Fechar</a>
+                </div>
+            </div>
+
+            <!--Atividades-->
+            <article class="col s1 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="..//tcc/img/atividade.png" alt="atividade" class="materialboxed">
+                        <a href="#atividades-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>  
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Atividades </h3>
+                        <p class="light">Assim como para nós, humanos, é necessário que o seu PET realize atividades
+                             físicas diariamente...</p>
+                    </div>
+                </div>
+            </article>
+            <!--Modal Atividades-->
+            <div class="modal" id="atividades-modal">
+                <div class="modal-content">
+                    <h5>Importância das atividades</h5>
+                    <br>
+                    <p>Os exercícios físicos também são importantes para os cães, pois além de aliviar o estresse e gastar energia, as brincadeiras com cachorro ainda contribuem por mantê-lo ativo, estimulando seus sentidos e deixando-o mais saudável e feliz. Sem esse entretenimento, o pet busca outras maneiras de se exercitar, nem sempre tão saudáveis, como roer os móveis, fazer buracos no quintal e até mesmo fuçar o lixo.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn red-logo modal-action modal-close">Fechar</a>
+                </div>
+            </div>
+
+            <!--Brincadeiras-->
+            <article class="col s1 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="..//tcc/img/brincadeiras.png" alt="brincadeiras" class="materialboxed">
+                        <a href="#brincadeiras-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>  
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Brincadeiras </h3>
+                        <p class="light">Para quem mora em casa ou apartamento e não tem tempo 
+                            de sair para passear com seu cão...</p>
+                    </div>
+                </div>
+            </article>
+            <!--Modal Brincadeiras-->
+            <div class="modal" id="brincadeiras-modal">
+                <div class="modal-content">
+                    <h5 class="light">Brincadeiras para fazer com seu Pet</h5> <br>
+                    <ul class="collection">
+                        <li class="collection-item">1. Jogar e pegar a bolinha</li>
+                        <li class="collection-item">2. Caça ração</li>
+                        <li class="collection-item">3. Esconde-esconde</li>
+                        <li class="collection-item">4. Cabo de guerra</li>
+                        <li class="collection-item">5. Pista com obstáculos</li>
+                        <li class="collection-item">6. Comandos de treinamento</li>
+                    </ul>
+                    <br>
+                    <p>Passear ao ar livre também é importante para o pet, visto que ele pode interagir com outros animais e pessoas,
+                        afinal os cachorros são animais sociáveis. Contudo, há diversas situações em que não é possível passear com ele,
+                        sendo essencial para o bem-estar e saúde entreter o pet dentro de casa, a fim de mantê-lo ativo e evitar o surgimento
+                        de alguns problemas, como irritabilidade, ansiedade e depressão.<br> <br>
+                        Dessa forma, mesmo que limitado é importante dar ao pet a sensação de liberdade,
+                        para que ele não se sinta enclausurado na casa. As opções apresentadas de brincadeiras
+                        com cachorro são uma ótima maneira de respeitar as necessidades do animal, evitando a
+                        monotonia e o estresse. Mas, para evitar que o tempo deixe esses momentos entediantes,
+                        vale a pena dar uma variada nas brincadeiras sempre que puder.</p> <br>   
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn red-logo modal-action modal-close">Fechar</a>
+                </div>
+            </div>
+
+            <!--Vacinação-->
+            <article class="col s1 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="..//tcc/img/vacinacao.png" alt="vacinacao" class="materialboxed">
+                        <a href="#vacinacao-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>  
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Vacinação </h3>
+                        <p class="light">As vacinas para cães desempenham um papel fundamental para a saúde
+                             e bem estar dos pets...</p>
+                    </div>
+                </div>
+            </article>
+            <!--Modal Vacinação-->
+            <div class="modal" id="vacinacao-modal">
+                <div class="modal-content">
+                    <h5>Importância da vacinação</h5>
+                    <br>
+                    <p>Como nos humanos, a vacinação tem dois objetivos: <br> <br>
+                    >Proteger o seu pet contra doenças infecciosas. Vaciná-lo irá permitir que ele permaneça saudável! <br> <br>
+                    >Proteger as pessoas contra os agentes circulantes dessas doenças. A vacinação previne o contágio de um animal para o outro,
+                    ou mesmo para as pessoas. <br> <br>
+                    Algumas doenças dos animais podem passar também para os seres humanos.
+                    Vacinação é, portanto, um ato médico muito importante e uma responsabilidade de saúde pública.
+                    Quanto maior o número de animais vacinados, menor a frequência de doenças na população.</p> <br><br>
+                    <h5>Vacinar sim, mas contra o que?</h5> <br> <br>
+                    <p>A vacina pode proteger contra várias doenças. Existem vacinas contra vírus, bactérias e outros parasitas.
+                    Existem vacinas essenciais (obrigatórias) e opcionais. O veterinário é quem irá definir o melhor protocolo de
+                    vacinação para o seu pet, baseado no estilo de vida, localização geográfica e viagens.</p> <br> <br>
+                    <h5>Qual a frequência ideal de vacinação?</h5> <br><br>
+                    <p>Para que a imunidade seja ideal, várias aplicações são necessárias no primeiro ano de vida
+                    Na vida adulta, deve ser mantida certa regularidade nas aplicações de vacinas, para que a
+                    imunidade se mantenha efetiva durante toda a vida do pet.
+                    O tutor deve ser cuidadoso em seguir o protocolo vacinal recomendado pelo veterinário.
+                    Caso as orientações não sejam seguidas à risca, pode ser necessário recomeçar o protocolo vacinal do zero!</p> <br> <br>
+                    <h5>Quais animais precisam ser vacinados?</h5> <br><br>
+                    <p>Todos os cães e gatos devem ser devidamente vacinados, mesmo aqueles que vivem nas grandes cidades,
+                    que não saem na rua ou animais idosos.
+                    O seu veterinário irá orientá-lo quanto ao tipo de vacina mais indicado para o seu pet,
+                    dependendo da localização, estilo de vida e idade dele.</p>
+                    <br>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn red-logo modal-action modal-close">Fechar</a>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section class="contato bloco scrollspy" id="contato">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="titulo">Contato</h2> <br>
+            </div>
+
+            <div class="col s12 m6 l6">
+                <div class="mapa transparent">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.206162509417!2d-54.09531792062223!3d-25.300496311920018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6acb0bb5df8b7%3A0x7ec5145e45e50b0e!2sJo%C3%A3o%20Manuel%20Mondrone%20-%20R.%20Rio%20Branco%20-%20Cidade%20Alta%2C%20Medianeira%20-%20PR%2C%2085884-000!5e0!3m2!1spt-BR!2sbr!4v1668882268991!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div class="informacoes white-text">
+                    <h4>Redes Sociais</h4>
+                    <p>Fique por dentro das novidades em nossas redes sociais!!!</p>
+                    <a href="https://www.facebook.com/mondronemedianeira" target="_blank" class="btn-floating red-logo"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/colegiomondrone/" target="_blank" class="btn-floating red-logo"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.google.com.br" target="_blank" class="btn-floating red-logo"><i class="fa fa-twitter"></i></a>
+
+                    <h4>Endereço</h4>
+                    <p class="light"> R. Mato Grosso, 2233 <br>
+                    Cidade Alta, Medianeira - PR, <br>
+                    85884-000 </p>
+
+                    <h4> Contatos </h4>
+                    <p class="light">
+                        (45) 99901-5112 <br>
+                        (45) 99810-6012 <br>
+                        (45) 99970-4940
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--RODAPÉ-->
+
+    <footer class="rodape">
+        <div class="row container center">
+            <img src="../tcc/img/logo.png" class="logo_img">
+            <p class="light white-text">@ NewPet 2022 <br></p>
+            <p class="white-text" face="Cambria">João Victor Morais Prehl <br> 
+            Beatriz Machado Bueno <br> 
+            Fritz Gerald Jean</p>
+        </div>
+    </footer>
+
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- MATERIALIZE JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <!-- JS -->
+    <script>
+        $(document).ready(function(){
+
+          $(".scrollspy").scrollSpy({
+            scrollOffset: 0
+          });     
+          //carousel  
+          $(".carousel.carousel-slider").carousel({
+            fullWidth:true
+          });
+          //modal
+          $(".modal").modal();
+        });
+        //Auto play carousel
+        function autoplay() {
+            $(".carousel").carousel("next");
+            setTimeout(autoplay, 3500);
+        }
+
+        autoplay();
+
+        
+        $(window).on("scroll", function(){
+            if($(window).scrollTop() > 100) {
+                $(".navbar").addClass("nav-color");
+            } else {
+                $(".navbar").removeClass("nav-color");
+            }
+
+        })
+    </script>
+
+</body>
+</html>

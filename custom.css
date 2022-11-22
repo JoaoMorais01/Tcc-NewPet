@@ -1,0 +1,78 @@
+/* Height 100%*/
+html, body {height: 100%;}
+.bloco {min-height: 100%; padding-top: 200px;}
+
+/*colors*/
+.red-logo {background-color: red ;}
+
+/* home 100%*/
+.home {animation: mudarbg 20s infinite; background-image: url('../tcc/img/foto1.png'); background-repeat: no-repeat;
+     background-size: cover;}
+.banner h2 {font-size: 2.5rem; font-weight: 900; text-transform: uppercase;}
+.banner p {font-size: 1.2rem; line-height: 1.8rem ;} 
+.banner {padding-top: 5rem;}
+.home h2 {color: rgb(255, 0, 0);}
+.home p {color: #fff; }
+
+/* logo */
+.logo_text {font-size: 0; margin: 0;}
+.logo_img {width: 80px; margin-top: 5px;}
+
+/* menu*/
+.navbar {background-color: transparent; transition: background 0.5s linear;}
+.navbar ul a:hover {color: red;}
+.nav-color {background-color: rgba(0,0,0,0.7); transition: background 0.5s linear;}
+
+/* custom */
+nav {
+    color: rgb(255, 255, 255);
+    background-color: #ee6e73;
+    width: 100%;
+    height: 94px;
+    line-height: 94px;
+  }
+
+nav.nav-extended .nav-wrapper {
+    min-height: 94px;
+    height: auto;
+  }
+
+.navbar-fixed {
+    position: absolute;
+    height: 94px;
+    z-index: 997;
+  }
+
+  
+
+/* home - animação*/
+@keyframes mudarbg {
+    40% {background-image: url('../tcc/img/foto123.jpg'); }
+    80% {background-image: url('../tcc/img/img3.jpg'); }
+    100% {background-image: url('../tcc/img/foto1.png'); }
+}
+
+/*Sobre*/
+.sobre {background-image: url(../TCC/img/textura1.png);}
+.sobre h2 {font-size: 2rem; color: #212121; text-transform: uppercase;}
+.sobre h2::after{content:''; display: block;width: 100px; border-top: 1px solid red; margin: 15px auto;}
+.sobre p {line-height: 1.8rem; text-align: justify;}
+.sobre .missao-visao-valores {padding: 20px 0; margin-top: 50px;}
+.sobre .missao-visao-valores .icon {color: white;}
+.sobre .missao-visao-valores h1 {font-size: 1.5rem; color: #fff; text-transform: uppercase;}
+.sobre .missao-visao-valores p {color: #fff; text-align: center;}
+
+.cuidados {background-image: url(../tcc/img/textura2.png);} 
+.cuidados h2 {font-size: 2rem; color: #212121; text-transform: uppercase;}
+.cuidados h2::after{content:''; display: block;width: 100px; border-top: 1px solid red; margin: 15px auto;}
+
+/*Contato*/
+.contato {background-image: url(../tcc/img/textura1.png);}
+.contato h2 {font-size: 2rem; color: #212121; text-transform: uppercase;}
+.contato h2::after{content:''; display: block;width: 100px; border-top: 1px solid red; margin: 15px auto;}
+.contato .mapa {min-height: 500px; }
+.contato .mapa iframe {width: 100%; min-height: 500px; border:none; }
+.contato .informacoes {background-image: url(../tcc/img/textura2.png); min-height: 500px; padding: 30px; margin-left: 40px; margin-right: 70px;}
+.contato .informacoes h4 {font-size: 1.3rem; text-transform: uppercase; font-weight: 900;}
+
+.rodape {background-color: black; background-size: cover; padding: 30px 0;}
